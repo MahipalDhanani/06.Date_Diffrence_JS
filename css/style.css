@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background-color: #23506b;
+}
+#main{
+    outline: 3px solid white;
+    outline-offset: -10px;
+    padding: 50px;
+    background-color: #5e9ea0;
+    width: 700px;
+    border-radius: 20PX;
+    box-shadow: rgb(20, 36, 54) 20px 30px 30px 10px;
+}
+#main #title{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+#main #title h1{
+    border-bottom: 3px solid white;
+    color: white;
+    /* width: 100%; */
+}
+#convertor{
+    /* border: 1px solid white; */
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 25px;
+    justify-content: space-between;
+    align-items: center;
+
+}
+#convertor input{
+    width: 80%;
+    padding: 15px;
+    border: none;
+    font-weight: 530;
+    transition: all 1s;
+    border-radius: 20px;
+}
+#convertor input:focus{
+    outline: none;
+    box-shadow: rgb(49, 138, 235) 0px 0px 30px 10px;
+}
+#convertor label{
+    color: white;
+    font-weight: 600;
+    width: 20%;
+}
+#convertor button{
+    padding: 15px;
+    font-weight: 600;
+    width: 80%;
+    margin-left: 20%;
+    color: #5e9ea0;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+}
+h3{
+    text-align: center;
+    width: 100%;
+    color: white;
+    display: inline-block;
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: center;
+    font-size: 22px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
